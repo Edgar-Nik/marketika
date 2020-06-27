@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Lato', sans-serif;
+    color: #414141;
 }
 .section-header{
     background: url("imgs/bitmap.png") no-repeat 50% 50%;
@@ -19,7 +20,6 @@ body{
     z-index: 5;
     content: '';
     position: absolute;
-    z-index: 5;
     top: 0;
     right: 0;
     left: 0;
@@ -103,4 +103,103 @@ body{
 }
 .header-input-name > input::placeholder{
     color: #FFFFFF;
+}
+.about{
+    position: relative;
+    background: #FFFFFF;
+    padding-top: 116px;
+    width: 1168px;
+    margin: 0 auto;
+}
+.about-wrapper{
+    display: flex;
+}
+.video,
+.text-wrapper{
+    flex-basis: 50%;
+}
+.text-wrapper{
+    padding-right: 80px;
+}
+.video > img{
+    width: 100%;
+    height: auto;
+}
+.about-title{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 55px;
+}
+.about-subtitle{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 14px;
+    margin-top: 30px;
+}
+.subtitle-text{
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 28px;
+}
+.about-icons-wrapper{
+    display: flex;
+    padding-top: 80px ;
+    margin-top: 115px;
+    border-top: 1px solid  #E2E2E2;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
+.icon-subtitle{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 14px;
+}
+.icon-text{
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.icon{
+    padding-bottom: 20px;
+}
+.icon-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 368px;
+
+}
+.founder{
+    display: flex;
+    background: #F6FAFD;
+    margin-top: 110px;
+    padding-top: 30px;
+}
+.about-founder{
+    font-size: 24px;
+    line-height: 40px;
+}
+.founder-name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+.founder-position{
+    font-size: 20px;
+    line-height: 24px;
+}
+.founder-img{
+    align-self: flex-end;
+    margin-left: 100px;
+}
+.founder-text{
+    align-self: center;
+    margin-left: 50px;
+    margin-right: 150px;
 }
