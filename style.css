@@ -11,7 +11,8 @@ body {
     color: #414141;
 }
 
-.section-header {
+.section-header{
+
     background: url("imgs/Bitmap.png") no-repeat 50% 50%;
     background-size: cover;
     color: #FFFFFF;
